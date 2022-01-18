@@ -1,0 +1,377 @@
+/*-----------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+    }
+  body{
+    background:#F2F0F4;
+  }
+    
+    .topo{
+      height: 60px;
+      background: #0F0E5B;
+      
+    } 
+    #check{
+      display: none;
+    } 
+    #icone{
+      cursor: pointer;
+      padding: 15px;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .barra{
+      background: #0F0E5B;
+      height: 100%;
+      width: 300px;
+      position: absolute;
+      transition: all .2s linear;
+      left: -300px;
+    }
+
+    nav{
+      width: 100%;
+      position: absolute;
+      top: 60px;
+
+    }
+
+    nav a{
+      text-decoration: none;
+    }
+
+    .link{
+      background: #818094;
+      padding: 20px;
+      font-family: 'Arial';
+      font-size: 12pt;
+      transition: all .2 linear;
+      color: #FFF;
+      border-bottom: 2px solid #0F0E5B;
+
+    }
+
+    .link:hover{  
+      background: #5F5E6D;
+    }
+
+    #check:checked ~ .barra{
+      transform: translateX(300px);
+    }
+.editar{
+  color: white;
+  font-size:17px;
+}
+
+    /* -------------------------------------------*/
+
+.titulo{
+  text-align:center;
+  padding:35px;
+  color: #0F0E5B;
+  font-size: 35px;
+}
+
+.conteiner2{
+width: 600px;
+height: 490px;
+background: #FFF;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+border: 5px solid #0F0E5B; 
+
+
+}
+.conteinerTabela{
+
+margin-top: -300px;
+
+}
+
+
+
+.tabela1{
+  width: 100%;
+  border-bottom: 1px solid #0F0E5B;
+}
+
+
+ 
+
+.teste2{
+  width: 20%;
+  background: #ff8a1b;
+  padding: 10px;
+  
+  }
+
+
+.teste3{
+  
+  width: 80%;
+  text-align: left;
+  text-indent: 20px;
+  padding: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+   color: 000;
+  
+  }
+
+
+
+  .editar{
+
+    color: 000;
+    text-decoration:none;
+    font-size:20px;
+}
+
+/*-----------------------------------------------------*/
+.tabelaCategoria{
+  
+  background: #fff;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 350px;
+
+}
+.nome{
+  font-size:60px;
+  color: #ff8a1b;
+  margin:5px;
+  margin-left: 250px;
+  
+
+}
+
+.tituloTabela{
+  background: #0F0E5B;
+  color: #fff;
+  height: 40px;
+
+  text-indent: 25px;
+  font-size:20px;
+}
+
+.tituloMaterial{
+  text-align:center;
+  color:#0F0E5B;
+  margin-top: 12px;
+}
+
+.conteinermaterial{
+  margin-top: 65px;
+}
+
+
+
+
+.linkproduto{
+  text-decoration:none;
+  color: black;
+}
+
+
+.divAdd{
+  
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 250px;
+  height: 30px;
+  background: #ff8a1b;
+  text-align: center;
+}
+
+.botoes{
+  margin: 0 auto;
+}
+.linkAdd{
+  color: #fff;
+  text-decoration:none;
+  font-size:24px;
+
+}
+.linkeditar{
+  background: green;
+  padding: 8px;
+ margin-left: 3px;
+ margin-right: 6px;
+ text-align: center;
+ height: 10px;
+border-radius: 4px;
+}
+
+.linkexluir{
+ background: red;
+ padding: 8px;
+ margin-left: 3px;
+ margin-right: 6px;
+ text-align: center;
+ height: 10px;
+ border-radius: 4px;
+}
+
+.tamanho{
+  width: 80px;
+  border-bottom: 1px solid grey;
+}
+
+.tamanho2{
+  width: 150px;
+  border-bottom: 1px solid grey;
+}
+
+.link2{
+  text-decoration: none;
+  color: #fff;
+
+ 
+}
+
+.nome2{
+  border-bottom: 1px solid grey;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  text-indent: 15px;
+}
+.linhaTabela{
+  border-bottom: 1px solid grey;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  text-indent: 15px;
+  text-align: center;
+}
+
+.tituloPagina{
+  color: #F2F0F4;
+  text-align: center;
+}
+
+/* ------------------------------------- Buscar ------------------------*/
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+#divBusca img{
+  float:left;
+}
+
+  .tituloRelatorio{
+    text-align: center;
+    color: #0F0E5B;
+    font-size: 30px;
+  }
+
+
+  /*------------------------------------------------------ CSS categoria -----------------*/
+  .tabelaRelatorio{
+  
+  background: #fff;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+
+.tblrelatorio{
+  
+  border-bottom: 1px solid grey;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  text-indent: 15px;
+
+}
+
+.relatorioTabela{
+  background: red;
+}
+
+
+
+.pesquisa {
+display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.txtbusca {
+border:0px solid #222;
+background:#fff;
+width:260px;
+height:33px;
+margin:0 auto;
+padding:5px 0 5px 5px;
+float:left;
+line-height:36px; // altura da linha
+}
+.btnBusca {
+background:#ff8a1b;
+position:relative;
+border:0px solid #222;
+color:#FFF; 
+margin:0 auto;
+padding:10px;
+border:0 none;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+.editarRelatorio{
+  text-decoration: none;
+  text-align:center;
+  color: black;
+}
+
+.col{
+   border-bottom: 1px solid grey;
+  width: 460px;
+  height: 45px;
+  font-size: 20px;
+  text-indent: 15px;
+  text-align:center;
+  font-size: 25px;
+
+}
+.col2{
+   border-bottom: 1px solid grey;
+  width: 460px;
+  height: 45px;
+  font-size: 20px;
+  text-indent: 15px;
+  text-align:center;
+  font-size: 25px;
+  background: #E5E5F1;
+
+}

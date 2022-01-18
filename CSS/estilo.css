@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+		}
+	body{
+		background:#F2F0F4;
+	}
+		
+		.topo{
+			height: 60px;
+			background: #0F0E5B;
+			
+		} 
+		#check{
+			display: none;
+		}
+		#icone{
+			cursor: pointer;
+			padding: 15px;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.barra{
+			background: #0F0E5B;
+			height: 100%;
+			width: 300px;
+			position: absolute;
+			transition: all .2s linear;
+			left: -300px;
+		}
+
+		nav{
+			width: 100%;
+			position: absolute;
+			top: 60px;
+
+		}
+
+		nav a{
+			text-decoration: none;
+		}
+
+		.link{
+			background: #818094;
+			padding: 20px;
+			font-family: 'Arial';
+			font-size: 12pt;
+			transition: all .2 linear;
+			color: #FFF;
+			border-bottom: 2px solid #0F0E5B;
+
+		}
+
+		.link:hover{  
+			background: #5F5E6D;
+		}
+
+		#check:checked ~ .barra{
+			transform: translateX(300px);
+		}
+
+.editar{
+  color: white;
+  font-size:17px;
+}
+		/* -------------------------------------------*/
+
+		#imagemFundo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+		}
+
+.conteiner{
+	width: 600px;
+	height: 520px;
+	background: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+
+}
+
+.conteiner3{
+	width: 600px;
+	height: 300px;
+	background: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+
+}
+
+/* -----------------------------------------Add nova obra -------------*/
+.titulo{
+	text-align:center;
+	padding:35px;
+	color: #0F0E5B;
+	font-size: 35px;
+}
+
+.campoCadastro{
+  height: 40px;
+  width: 300px;
+  font-size: 15px;
+  color: #003853;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background: #F2F0F4;
+  text-indent: 25px;
+  border: none;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  
+}
+
+.indicador{
+	font-size:20px;
+	padding-left: 22px;
+}
+
+.botao_add {
+	 text-align: center;
+    color: white;
+     margin-left: 180px;
+
+    background:#FF8A1B;
+    border: 2px solid #A9A9A9;
+    padding:  5px 20px;
+    height: 35px;
+    width: 250px;
+    
+    font-size: 17px;
+   
+  }
+
+ /* ---------------------------- Perfil -------------------------*/
+ .conteinerPerfil{
+ 	width: 500px;
+ 	height: 300px;
+ 	background: #FFF;
+ }
+ .linkAdd{
+  color: #fff;
+  text-decoration:none;
+  font-size:24px;
+
+}
+.divAdd{
+  
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 250px;
+  height: 30px;
+  background: #ff8a1b;
+  text-align: center;
+}
+
+
+.tabelaRelatorio{
+  
+  background: #fff;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 50px;
+}
